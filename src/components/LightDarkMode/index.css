@@ -1,0 +1,45 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: #ffffff;
+  border: 2px solid black;
+  padding: 20px;
+}
+.button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .heading {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
